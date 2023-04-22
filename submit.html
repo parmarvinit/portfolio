@@ -1,0 +1,80 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://kit.fontawesome.com/b9affcfa7b.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>
+            Form Submit!
+        </title>
+    </head>
+    <body class="sub">
+        <!-- Progress Bar -->
+        <div class="progress" id="PreLoaderBar">
+            <div class="indeterminate"></div>
+        </div>
+
+        <!-- Navbar -->
+        <nav>
+            <div class="logo" id="logo"><a href="#home">PORTFO<span id="multi">LIO</span></a></div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        
+            <ul class="menu">
+                <li><a href="index.html">Go Home!</a></li>
+            </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="naa">
+            <h1>
+                Form Submitted Successfully !
+                <p>Thank you for reaching out to me. I'll soon contact you.❤️</p>
+                <p class="n">Have a nice day.🙂👍🏽 </p>
+                <p class="na">Wait, it will soon redirect you to the Home Page.👻 </p>
+            </h1>
+        </div>
+        <style>
+            * {
+                box-sizing: border-box;
+                overflow-x: hidden;
+                overflow: hidden;
+            }
+            nav{
+                top: 0;
+                margin-top:0;
+            }
+        </style>
+        <script>
+            // after 5000 delay, it will redirect u to Main Index page
+            setTimeout(function () {
+                    window.open('index.html','_self'); ///////////////////////it will redirect u to home page-#contact section
+                }, 5000);
+        </script>
+        
+        <script>
+            //Pop-up detect and Send a Alert Message
+                function PopupBlocked() {
+                    var PUtest = window.open(null, "", "width=100,height=100");
+                    try {
+                        PUtest.close(); return false;
+                    }
+                    catch (e) {
+                        return true;
+                    }
+                }
+                if (PopupBlocked()) {
+                    alert('Your Form has been Submitted.🥳 !\nUnfortunately,Your POP-UP has been Blocked 😕, It would not redirect u too Home Page.. \nPlz Allow it N Refresh the Page !🙂 or Click on "Go Home!"👍🏼');
+                }
+        </script>
+
+        <!-- Script Link -->
+        <script src="script.js"></script>
+    
+    </body>
+</html>
