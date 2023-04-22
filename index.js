@@ -65,28 +65,28 @@ function onlyNumberKey(evt) {
 }
 
 
-// // // Disable Developer Mode (disable right click, 123 keycode, ctrl+shift+i, ctrl+shift+c, ctrl+shift+j, ctrl+u)
+// // // // Disable Developer Mode (disable right click, 123 keycode, ctrl+shift+i, ctrl+shift+c, ctrl+shift+j, ctrl+u)
 
-// document.onkeydown = function(e) {
-//   if(event.keyCode == 123) {       
-//     return false;
-//   }
-//   if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {       
-//      return false;
-//   }
-//   if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {       
-//     return false;
-//   }
-//   if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {       
-//     return false;
-//   }
-// //   if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-// //     if(confirm("Sorry, Inspect is Hided😶!!.\nVisit my GitHub profile for source code😁\nYes, There r lots of ways to access it.Find it!🤔\nHint: Lil easy n in front of uhh")){ // shown confirm message if user click on OK
-// //         window.open("https://github.com/jaadu1402/Portfolio", '_blank');    //////// open github link in new tab
-// //     }       
+// // document.onkeydown = function(e) {
+// //   if(event.keyCode == 123) {       
 // //     return false;
-//   }
-}
+// //   }
+// //   if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {       
+// //      return false;
+// //   }
+// //   if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {       
+// //     return false;
+// //   }
+// //   if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {       
+// //     return false;
+// //   }
+// // //   if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+// // //     if(confirm("Sorry, Inspect is Hided😶!!.\nVisit my GitHub profile for source code😁\nYes, There r lots of ways to access it.Find it!🤔\nHint: Lil easy n in front of uhh")){ // shown confirm message if user click on OK
+// // //         window.open("https://github.com/jaadu1402/Portfolio", '_blank');    //////// open github link in new tab
+// // //     }       
+// // //     return false;
+// //   }
+// }
 
  
 
