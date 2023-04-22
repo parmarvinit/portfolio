@@ -234,7 +234,7 @@
                         
                     <div class="contact-txt " data-aos="zoom-in-up">
                         
-                            <form name="contact-form" id="form" action="submit.html">
+                            <form name="contact-form" id="form">
 
                             <input type="text" id="Name" placeholder="Enter Your Name *" required>
                             <input type="email" id="Email" placeholder="Enter Your Email address *" required>
@@ -242,7 +242,7 @@
                             <textarea id="Description" placeholder="Leave a comment abt How's this Project.🙂 " ></textarea>
                             
 
-                            <button type="submit" clsendEmailass="sbtn" class="submit" onclick="sendEmail()" > Send</button>
+                            <button type="button" clsendEmailass="sbtn" class="submit" onclick="sendEmail()" > Send</button>
                         </form>
 
                     </div>
@@ -322,6 +322,7 @@
           }).then(function (response) {
           console.log('SUCCESS!', response.status, response.text); 
          document.getElementById("form").reset();
+          window.open('submit.html','-self');
                 
       }, function (error) {
           console.log('FAILED...', error);
